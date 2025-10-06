@@ -17,8 +17,16 @@
 	align-items: center;
 	font-weight: bold;
 }
+.navbar-top .right {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	font-size: 14px;
+}
 .navbar-top .left {
-	display: none;
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
 .phone-icon {
 	width: 20px;
@@ -112,14 +120,10 @@
 		height: auto;
 		padding: 20px;
 	}
-
-	.navbar-top .right{
+	.navbar-top {
 		display: flex;
-		gap: 15px;
-		align-items: center;
 		justify-content: right;
-		width: 100%;
-	}
+	}	
 	.navbar-top .left {
 		display: none;
 	}
@@ -182,9 +186,6 @@
 	}
 	.navbar-links ul li:hover {
 		background-color: rgba(255, 255, 255, 0.1);
-	}
-	.navbar-top .left {
-		display: none;
 	}
 	.menu-btn {
 		display: flex;

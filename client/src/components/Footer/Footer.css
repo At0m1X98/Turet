@@ -13,7 +13,6 @@
 	bottom: 0;
 }
 .footer-newsletter {
-	border: 1px solid red; 
 	width: 100%;
 	height: 30%;
 	display: flex;
@@ -22,12 +21,21 @@
 	align-items: center;
 }
 .footer-content {
-	border: 1px solid blue;
 	width: 100%;
 	height: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-links {
+	width: 20%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 .footer-bottom {
-	border: 1px solid green;
 	width: 100%;
 	height: 10%;
 	display: flex;
