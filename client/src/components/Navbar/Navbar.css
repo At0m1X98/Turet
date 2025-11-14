@@ -6,7 +6,7 @@
 	align-items: center;
 	background-color: #3B4433;
 	background: radial-gradient(circle, rgba(59,68,51,1) 0%, rgba(36,36,36,1) 100%);
-	padding: 20px 150px;
+	padding: 20px 150px 0 150px;
 	color: #646464;
 } 
 .navbar-top {

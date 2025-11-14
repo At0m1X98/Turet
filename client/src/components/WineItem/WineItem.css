@@ -1,0 +1,72 @@
+:root {
+	--text-color: rgb(0, 0, 0);
+	--special-color: rgb(184, 135, 11);
+}
+
+.wine-item {
+	width: 600px;
+	height: 400px;
+	background-image: url('./Gemini.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: var(--text-color);
+	border-radius: 15px;
+	box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	font-size: 18px;
+}
+.wine-container {
+	display: flex;
+	gap: 30px;
+}
+.wine-item-pic {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+.wine-item-pic img {
+	width: 90px;
+	height: auto;
+}
+.wine-item-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 15px;
+	margin: 25px 0;
+}
+.wine-item-header {
+	display: flex;
+	align-items: center;
+}
+.vinarstvi {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+.nazev {
+	color: var(--special-color);
+	text-shadow: 0 0 .5px var(--text-color);
+	font-size: 42px;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 4px 0;
+	padding: 0;
+}
+span {
+	font-weight: 400;
+	color: var(--special-color);
+}
+.thermo {
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	font-size: 16px;
+}

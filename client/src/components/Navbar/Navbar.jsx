@@ -55,9 +55,8 @@ const Navbar = () => {
 					<li><Link to="/wine" className='link'>VÍNO</Link></li>
 					<li><Link to="/alcoholics" className='link'>VINAŘI</Link></li>
 					<li><Link to="/degustation" className='link'>DEGUSTACE</Link></li>
-					<li><Link to="/place" className='link'>DEGUSTÉKA</Link></li>
-					<li><Link to="/companies" className='link'>PRO FIRMY</Link></li>
-					<li><Link to="/to-morava" className='link'>NA MORAVU</Link></li>
+					<li><Link to="/companies" className='link'>SPOLUPRÁCE</Link></li>
+					<li><Link to="/to-morava" className='link'>REZERVACE</Link></li>
 					<li><Link to="/contact" className='link'>KONTAKT</Link></li>
 				</ul>
 			</div>
