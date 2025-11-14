@@ -18,8 +18,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/*" element={<Root />} >
-            <Route index element={<Home />} />
-            <Route path="wine" element={<Wines/>} />
+            <Route path='home' element={<Home />} />
+            <Route path="testing" element={<Wines/>} />
             <Route path="alcoholics" element={<Alcoholics />} />
             <Route path="degustation" element={<Degustation />} />
             <Route path="place" element={<Place />} />
